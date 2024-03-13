@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>VAZIFA</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__container" id="header">
+            <h1 id="header__title" class="header__title">NAMOZ VAQTLARI</h1>
+            <form id="prayerForm">
+                <input  class="header__input" id="cityInput" type="text" placeholder="Shaharni kiriting">
+                <button class="header__btn" id="prayerBtn" type="submit">Malumot olish</button>
+            </form>
+     
+                <div class="prayerInfo" id="prayerInfo">
+                    <p class="header__subtext"></p>
+                    <ul class="list">
+                        <li class="item">
+                        <p  class="header__next-text">Bomdod<br></p> <img class="header__img" src="./img/Screen Shot 2024-03-10 at 13.12.14.png" alt="img" width="150" height="150">  </li>
+                        <li class="item">
+                        <p class="header__next-text">Quyosh<br></p>  <img class="header__img" src="./img/unnamed.webp" alt="img" width="150" height="150"></li>
+                        <li class="item">
+                        <p  class="header__next-text">Peshin<br></p><img class="header__img" src="./img/Screen Shot 2024-03-10 at 13.27.59.png" alt="img" width="150" height="150"></li>
+                        <li class="item">
+                        <p class="header__next-text">Asr<br></p><img class="header__img" src="./img/Screen Shot 2024-03-10 at 13.34.28.png" alt="img" width="150" height="150"></li>
+                        <li class="item">
+                        <p class="header__next-text">Shom<br></p> <img class="header__img" src="./img/unnamed.webp" alt="img" width="150" height="150"></li>
+                        <li class="item">
+                        <p  class="header__next-text">Hufton<br></p><img class="header__img" src="./img/Screen Shot 2024-03-10 at 13.12.14.png" alt="img" width="150" height="150">  </li>
+                        </ul>
+                </div>
+                <div class="weatherInfo" id="weatherInfo"></div>
+              
+            
+<div class="til" id="google_translate_element">
+
+<button class="header__button" onclick="changeLanguage('eng')">
+    <img class="btn__img"  src="./img/Flag_of_the_United_Kingdom.png" alt="img" width="30" height="30"></button>
+<button class="header__button" onclick="changeLanguage('uz')">
+    <img class="btn__img"  src="./img/1200px-Flag_of_Uzbekistan.png" alt="img" width="30" height="30">
+</button>
+<button class="header__button" onclick="changeLanguage('ru')">
+    <img class="btn__img"  src="./img/Flag_of_Russia.png" alt="img" width="30" height="30">
+</button>
+
+
+</div>
+
+
+
+
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
